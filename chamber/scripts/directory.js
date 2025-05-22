@@ -1,7 +1,7 @@
 // Fetch and display members
 async function getMembers() {
     try {
-        const response = await fetch('./data/members.json');
+        const response = await fetch('/wdd230/chamber/data/members.json');
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
