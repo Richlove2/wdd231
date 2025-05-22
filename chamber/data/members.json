@@ -1,0 +1,65 @@
+[
+    {
+        "name": "ABC Manufacturing",
+        "address": "123 Industrial Way, Your City, State 12345",
+        "phone": "(555) 123-4567",
+        "website": "https://abcmanufacturing.com",
+        "image": "images/abc-logo.jpg",
+        "membershipLevel": 3,
+        "otherInfo": "Industrial equipment manufacturer since 1985"
+    },
+    {
+        "name": "Main Street Cafe",
+        "address": "456 Main Street, Your City, State 12345",
+        "phone": "(555) 234-5678",
+        "website": "https://mainstreetcafe.com",
+        "image": "cafe-logo.jpg",
+        "membershipLevel": 2,
+        "otherInfo": "Family-owned restaurant serving breakfast and lunch"
+    },
+    {
+        "name": "Green Thumb Landscaping",
+        "address": "789 Garden Lane, Your City, State 12345",
+        "phone": "(555) 345-6789",
+        "website": "https://greenthumb.com",
+        "image": "landscaping-logo.jpg",
+        "membershipLevel": 1,
+        "otherInfo": "Full-service landscaping and lawn care"
+    },
+    {
+        "name": "Tech Solutions Inc.",
+        "address": "321 Tech Park, Your City, State 12345",
+        "phone": "(555) 456-7890",
+        "website": "https://techsolutions.com",
+        "image": "tech-logo.jpg",
+        "membershipLevel": 3,
+        "otherInfo": "IT services and consulting"
+    },
+    {
+        "name": "First Community Bank",
+        "address": "654 Finance Ave, Your City, State 12345",
+        "phone": "(555) 567-8901",
+        "website": "https://firstcommunitybank.com",
+        "image": "bank-logo.jpg",
+        "membershipLevel": 3,
+        "otherInfo": "Local banking services"
+    },
+    {
+        "name": "Sunny Day Preschool",
+        "address": "987 Learning Lane, Your City, State 12345",
+        "phone": "(555) 678-9012",
+        "website": "https://sunnydaypreschool.com",
+        "image": "preschool-logo.jpg",
+        "membershipLevel": 2,
+        "otherInfo": "Early childhood education"
+    },
+    {
+        "name": "Pine Ridge Realty",
+        "address": "159 Realtor Road, Your City, State 12345",
+        "phone": "(555) 789-0123",
+        "website": "https://pineridgerealty.com",
+        "image": "realty-logo.jpg",
+        "membershipLevel": 1,
+        "otherInfo": "Residential and commercial real estate"
+    }
+]

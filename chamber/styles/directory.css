@@ -1,0 +1,112 @@
+/* Directory specific styles */
+.view-toggle {
+    margin: 1rem 0;
+    text-align: right;
+}
+
+.view-toggle button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-toggle button:hover {
+    background-color: var(--secondary-color);
+}
+
+#member-container {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+/* Grid View */
+#member-container.grid-view {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.member-card {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.member-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 4px;
+}
+
+.member-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+}
+
+.member-card p {
+    margin: 0.5rem 0;
+}
+
+.member-card a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.member-card a:hover {
+    text-decoration: underline;
+}
+
+.membership-level {
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--border-color);
+}
+
+/* List View */
+#member-container.list-view {
+    grid-template-columns: 1fr;
+}
+
+#member-container.list-view .member-card {
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr 1fr;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#member-container.list-view .member-card img {
+    max-width: 80px;
+    margin: 0;
+}
+
+#member-container.list-view .member-card h3 {
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #member-container.list-view .member-card {
+        grid-template-columns: 1fr;
+    }
+    
+    #member-container.list-view .member-card img {
+        margin: 0 auto 1rem;
+    }
+}
